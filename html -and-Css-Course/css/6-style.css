@@ -1,0 +1,34 @@
+body {
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+}
+
+/* @media screen and (max-width:300px) {
+    ul{
+        display: flex;
+        justify-content: flex-end
+    }
+    li{
+        list-style: none;
+        margin: 0 40px;
+    }
+    
+} */
+
+@media screen and (max-width:500px) {
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        list-style: none;
+        margin: 0 40px;
+    }
+
+    .imgcontainer{
+        margin: 0 100px;
+        align-items: center;
+    }
+    
+}

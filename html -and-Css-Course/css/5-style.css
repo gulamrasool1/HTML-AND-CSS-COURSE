@@ -1,0 +1,114 @@
+.maincontainer {
+    width: 600px;
+    height: 390px;
+    border: 2px solid black;
+}
+
+.maindiv {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* margin: 200px; */
+    margin-top: 20px;
+   
+}
+
+.div1 {
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    
+} 
+
+.div2 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+   
+}
+
+.div3 {
+    background-color:darkblue;
+    color: white;
+    padding: 10px;
+  
+}
+
+.div4 {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    /* margin-left: auto; */
+  
+}
+
+.div5 {
+    background-color: darkorange;
+    color: white;
+    padding: 10px;
+   
+}
+
+.div6 {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+   
+}
+
+.div7 {
+    background-color: darksalmon;
+    color: white;
+    padding: 10px;
+   
+}
+
+.div8 {
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    /* margin-left: auto; */
+    
+}
+
+.Nestedcontainer {
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+.item{
+    height: 60px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.nesteddiv1{
+    background-color: orange;
+}
+
+.nesteddiv2{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.box{
+    border: 2px solid red;
+    width: 200px;
+    background-color: black;
+
+}
+
+.nesteddiv3{
+    background-color: green;
+}

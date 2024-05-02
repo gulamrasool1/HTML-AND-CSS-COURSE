@@ -1,0 +1,105 @@
+li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+} 
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    /* align-items:center ; */
+    align-content: center;
+
+}
+
+.maindiv {
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+}
+
+.div1 {
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    order: 1;
+    /* flex-grow: 1; */
+    flex-basis: 200px;
+    
+} 
+
+.div2 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    order: 2;
+    /* flex-grow: 2; */
+    /* flex-basis: 200px; */
+
+}
+
+.div3 {
+    background-color:darkblue;
+    color: white;
+    padding: 10px;
+    order: 3;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+
+.div4 {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    order: 4;
+    /* flex-basis: 200px; */
+  /* flex-grow: 1; */
+}
+
+.div5 {
+    background-color: darkorange;
+    color: white;
+    padding: 10px;
+    order: -1;
+    /* flex-basis: 200px; */
+/* flex-grow: 1; */
+}
+
+.div6 {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    order: -2;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+
+.div7 {
+    background-color: darksalmon;
+    color: white;
+    padding: 10px;
+    order: -3;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+
+.div8 {
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    order: -4;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
